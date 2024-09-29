@@ -1,0 +1,8 @@
+pyTelegramBotAPI==4.12.0  # Telegram bot API (telebot)
+python-dotenv==1.0.0      # For environment variables management
+requests==2.31.0          # For making HTTP requests if needed
+schedule==1.2.0           # If you want to schedule tasks (optional)
+certifi==2023.9.6         # Root certificates (used with requests)
+charset-normalizer==3.3.0 # Encoding detection (used with requests)
+idna==3.4                 # Internationalized Domain Names in URLs (used with requests)
+urllib3==2.0.7            # HTTP library (used with requests)
