@@ -4,6 +4,7 @@ on:
   schedule:
     # Run every 6 hours
     - cron: "0 */6 * * *"
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   restart-telegram-bot:
